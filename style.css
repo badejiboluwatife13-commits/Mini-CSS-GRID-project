@@ -43,6 +43,7 @@
     flex-wrap:wrap;
     gap: 30px;
     margin: auto;
+    justify-content: center;
 }
 .card{
     padding: 20px;
@@ -74,12 +75,25 @@ img{
     background-color: blue;
     border: 3px solid white;
     border-radius: 50%;
-    top: 39%;
+    top:35%;
     right: 30%;
 
     
     
 }
+/* .image-box {
+    position: relative;
+    display: inline-block;
+}
+
+.heart {
+    position: absolute;
+    background-color: blue;
+    border: 3px solid white;
+    border-radius: 50%;
+    right: -5px;
+    bottom: -5px;
+}                                                       */
 .card p{
     color: #777;
     font-size: 15px;

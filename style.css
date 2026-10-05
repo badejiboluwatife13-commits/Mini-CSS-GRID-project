@@ -75,7 +75,7 @@ img{
     background-color: blue;
     border: 3px solid white;
     border-radius: 50%;
-    top:35%;
+    top:37%;
     right: 30%;
 
     
@@ -112,6 +112,9 @@ img{
         justify-content: center;
         align-items: center;
     }
+    .heart{
+        top: 34%;
+    }
 }
 
 @media(max-width:680px) {
@@ -119,6 +122,10 @@ img{
         display: flex;
         /* border: 2px solid red; */
     }
+    .heart{
+        top: 31%;
+    }
+
     .card-container{
         display: flex;
         justify-content: center;
@@ -130,6 +137,9 @@ img{
     .mid{
         display: flex;
         /* border: 2px solid red; */
+    }
+    .heart{
+        top: 28%;
     }
     .card-container{
         display: flex;

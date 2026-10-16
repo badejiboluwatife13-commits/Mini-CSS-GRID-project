@@ -75,7 +75,7 @@ img{
     background-color: blue;
     border: 3px solid white;
     border-radius: 50%;
-    top:37%;
+    top:40%;
     right: 30%;
 
     
@@ -105,15 +105,16 @@ img{
 @media(max-width:480px) {
     .mid{
         display: flex;
-        /* border: 2px solid red; */
+        /* border: 3px solid red; */
     }
     .card-container{
         display: flex;
         justify-content: center;
         align-items: center;
+        /* border: 2px solid blue; */
     }
     .heart{
-        top: 34%;
+        top: 42%;
     }
 }
 
@@ -123,7 +124,7 @@ img{
         /* border: 2px solid red; */
     }
     .heart{
-        top: 31%;
+        top: 37%;
     }
 
     .card-container{
@@ -139,11 +140,12 @@ img{
         /* border: 2px solid red; */
     }
     .heart{
-        top: 28%;
+        top: 40%;
     }
     .card-container{
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
 }

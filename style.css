@@ -111,10 +111,11 @@ img{
         display: flex;
         justify-content: center;
         align-items: center;
-        /* border: 2px solid blue; */
+        border: 2px solid blue;
     }
     .heart{
-        top: 39%;
+        top: 35%;
+        /* border: 2px solid red; */
     }
 }
 
